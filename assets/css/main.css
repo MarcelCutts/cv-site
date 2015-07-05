@@ -20,6 +20,13 @@ h1, h2, h3, h4, h5, h6 {
     color: #333;
 }
 
+@media(max-width: 986px) {
+	h5 {
+		font-size: 18px;
+		margin: 0 0 20px 0;
+	}
+}
+
 
 /* Paragraph & Typographic */
 p {
@@ -159,6 +166,10 @@ a:after {
 
 .header-title {
 	padding-bottom: 0.5%;
+}
+
+.job-meta-small {
+	float: right;
 }
 
 /* Skills section components */
@@ -325,7 +336,7 @@ a:after {
 }
 
 .desc more {
-	color: #5F6C79;
+	color: #3A424A;
 }
 
 
